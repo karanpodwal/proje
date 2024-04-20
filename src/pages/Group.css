@@ -1,0 +1,254 @@
+.image-293-icon {
+  position: absolute;
+  top: -59px;
+  left: 0;
+  width: 1750px;
+  height: 1203px;
+  object-fit: cover;
+}
+.log-in-child {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  border-radius: 15px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.75);
+  width: 750px;
+  height: 850px;
+}
+.welcome-to-digitalflake {
+  position: absolute;
+  top: 170px;
+  left: 150px;
+  color: #717070;
+  width: 900px;
+}
+.log-in-button-child {
+  width: 673px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: blue;
+}
+.log-in1 {
+  position: absolute;
+  top: 20px;
+  left: 289px;
+  font-weight: 500;
+}
+.log-in-button {
+  position: absolute;
+  top: 888px;
+  left: 95px;
+  width: 673px;
+  height: 80px;
+  color: var(--color-white);
+}
+.forgot-password {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.forgot-password-wrapper {
+  position: absolute;
+  top: 739px;
+  left: 552px;
+  width: 212px;
+  height: 36px;
+  font-size: var(--font-size-5xl);
+  color: #a08cb0;
+}
+.arrow-drop-up-icon,
+.calendar-today-icon {
+  position: absolute;
+  height: 42.86%;
+  width: 6.32%;
+  top: 28.57%;
+  right: 4.21%;
+  bottom: 28.57%;
+  left: 89.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.arrow-drop-up-icon {
+  top: 26.79%;
+  bottom: 30.36%;
+  object-fit: contain;
+}
+.abcxyzcom,
+.visibility-off-icon {
+  position: absolute;
+  top: 16px;
+  display: none;
+}
+.visibility-off-icon {
+  left: 340px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.abcxyzcom {
+  left: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  width: 308px;
+}
+.text-field {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  width: 673px;
+  height: 84px;
+  overflow: hidden;
+}
+.email-id {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 16px;
+}
+.label {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-9xs);
+  font-size: var(--font-size-8xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+.text-field-parent {
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 673px;
+  height: 92px;
+}
+.coamana-input-fielddefault,
+.coamana-input-fielddefault1 {
+  position: absolute;
+  top: 458px;
+  left: 95px;
+  width: 673px;
+  height: 85px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.coamana-input-fielddefault1 {
+  top: 623px;
+}
+.mdieye-off-icon {
+  position: absolute;
+  top: 653px;
+  left: 732px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.image-289-icon {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+.log-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #dde0ff;
+  width: 1728px;
+  height: 1117px;
+  overflow: hidden;
+}
+.log-in-parent {
+  width: 100%;
+  height: 1117px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--secondary);
+  font-family: var(--font-poppins);
+}
+
+
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('/image-293@2x.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-container {
+  width: 500px;
+  height: 600px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-white);
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.75);
+  /* position: absolute;
+  top: 150px;
+  left: 50px;
+  border-radius: 15px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.75);
+  width: 750px;
+  height: 850px; */
+}
+
+.input-group {
+  margin-bottom: 20px;
+  position: relative; /* or absolute or fixed */
+  top: 160px;
+}
+
+input[type='text'], input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #563d7c;
+  color: white;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  position: relative; /* or absolute or fixed */
+  top: 280px;
+}
+
+
+.forgot-password {
+  margin-top: 10px;
+  position: relative; /* or absolute or fixed */
+  top: -190px; /* Adjust margin as needed */
+  left: 150px;
+}
+
+.forgot-password-button {
+  font-size: 12px; /* Adjust font size as needed */
+  color: blueviolet;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
